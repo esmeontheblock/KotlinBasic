@@ -29,5 +29,18 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, " 토스트 버튼 눌림", Toast.LENGTH_SHORT).show()
 
         }
+
+        btnVariablePractice.setOnClickListener {
+
+            var myName : String
+
+            val friendName : String
+
+            myName = "권효영"
+            friendName = "조민상"
+
+            myName = "권민주" // 추가로 다시 대입해도 됨. var
+//            friendName = "조상민" // 한번 넣은 걸로 계속 사용. val
+        }
     }
 }
