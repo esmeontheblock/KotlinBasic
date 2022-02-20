@@ -41,6 +41,9 @@ class MainActivity : AppCompatActivity() {
 
             myName = "권민주" // 추가로 다시 대입해도 됨. var
 //            friendName = "조상민" // 한번 넣은 걸로 계속 사용. val
+
+            Toast.makeText(this, friendName, Toast.LENGTH_SHORT).show()
+
         }
     }
 }
